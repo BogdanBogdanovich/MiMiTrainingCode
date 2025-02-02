@@ -6,7 +6,7 @@ public class Moskow {
 
         // цикл
         for (int i = 0; i < 5; i = i + 1) {
-            System.out.println("Привет, Максим!");
+            System.out.println("Привет, Москва!");
         }
 
     }
