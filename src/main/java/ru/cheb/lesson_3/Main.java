@@ -9,7 +9,10 @@ public class Main {
 
         System.out.println("Кошка по кличке - " + catMurka.кличка);
         System.out.println("Возраст кошки - " + catMurka.возраст);
-        System.out.println("Сделала действие - " + catMurka.мяу());
+
+        for (int i = 0; i < 5; i = i + 1) {
+            System.out.println("Сделала действие - " + catMurka.мяу());
+        }
 
         Cat catElizaveta = new Cat(); // вторая отдельная кошка
         catElizaveta.возраст = 50;
