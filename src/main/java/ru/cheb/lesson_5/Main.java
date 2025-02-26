@@ -1,4 +1,4 @@
-package ru.cheb.lesson_4;
+package ru.cheb.lesson_5;
 
 public class Main {
 
@@ -15,17 +15,10 @@ public class Main {
 
         System.out.println("Сытость кошки - " + catMurka.fill);
 
-        catMurka.fill = burnout("SJ");
-
     }
 
     static int eat(int currentFill) {
         int result = currentFill + 1;
         return result;
-    }
-
-    static int burnout(String qwerty) {
-        System.out.println(qwerty);
-        return 1;
     }
 }
